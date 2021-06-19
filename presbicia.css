@@ -1,0 +1,1223 @@
+/*  CSS ESTILOS CURSOS  */
+
+/*  ESTRUCTURA BÁSICA  */
+
+body { 
+  background-color:#222222;
+  }
+  
+p {
+  font-size:1.2em;
+  font-family: Arial, Verdana, Helvetica, sans-serif;
+  text-align:justify; 
+  }
+  
+li {
+  font-size:1.2em;
+  font-family: Arial, Verdana, Helvetica, sans-serif;
+  text-align:justify;
+  }
+  
+dd {
+  font-size:1.2em;
+  font-family: Arial, Verdana, Helvetica, sans-serif;
+  text-align:justify; 
+  }
+
+.navegacionprincipal {
+  width:95%;
+  margin:10px auto;
+  }
+
+.postindice {
+  padding-top:20px;
+  clear: both; 
+  }
+
+.indicenav {
+  width:10%;
+  margin:0 auto;
+  background-color:#0000FF;
+  color:#FFFFFF;
+  font-weight:bold;
+  text-align:center;
+  font-size:1.5em;
+  }
+
+article h3
+  {
+  font-size:1.4em;
+  color:#0000FF;
+  text-align:center;
+  text-decoration:underline;
+  }
+
+article h4 {
+  color:#339900;
+  font-size:1.3em;
+  text-align:center;
+  text-decoration:underline;
+  }
+
+.bibliografia {
+  float: left;
+  width:40%;
+  border:solid 1px #000000;
+  margin:30px;
+  padding:30px;
+  }
+
+.central {
+  text-align: center;
+  }
+
+div.primeralinea {
+  text-indent: 40px;
+  }
+
+.divsubnavegacion {
+  width:75%;
+  margin: 0 auto;
+  }
+  
+.parrafoindice {
+  width:20%;
+  clear:both; 
+  margin-top:10px;
+  margin-bottom:-1px;
+  font-weight:bold;
+  font-size:1.3em;
+  background-color:#FFFF00;
+  border:1px solid #000000;
+  }
+
+.barraseccion {
+  width:95%;
+  border-color:#339900;
+  }
+
+.barrasubnavegacion {
+ width:75%;
+  border-color:#0000FF;
+  clear:both;
+  }
+ 
+table {
+  border-collapse:collapse;
+  margin: 0 auto;
+  }
+
+td {
+  border: 1px solid #000000;
+  padding: 5px 4px 1px 2px;
+  }
+  
+footer {
+  border: solid #FFFFFF;
+  border-radius:20px;
+  width:90%;
+  height:15px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align:center;
+  font-size:small;
+  }
+  
+.pienaranja {
+  background-color:#DD5500;
+  color: #FFFF00;
+  }
+  
+.pieverde {
+  background-color:#339900;
+  color: #FFFF00;
+  }
+  
+.pieazul {
+  background-color:#0000FF;
+  color: #FFFFFF;
+  }
+  
+.pielila {
+  background-color:#BD00BD;
+  color: #FFFFFF;
+  }
+  
+.pierojo {
+  background-color:#FF0000;
+  color: #FFFFFF;
+  }
+ 
+ /* TITULOS */
+ 
+.titulonaranjaH1 {
+  font-family: Arial;
+  color: #DD5500;
+  font-weight: bold;
+  text-decoration: underline;
+  text-align:center;
+  }
+
+.titulonaranjaH2 {
+  font-family: Arial;
+  color: #DD5500;
+  font-weight: bold;
+  text-decoration: underline;
+  text-align:center;
+  }
+  
+.tituloverdeH1 {
+  font-family: Arial;
+  color: #339900;
+  font-weight: bold;
+  text-decoration: underline;
+  text-align:center;
+  }
+
+.tituloverdeH2 {
+  font-family: Arial;
+  color: #339900;
+  font-weight: bold;
+  text-decoration: underline;
+  text-align:center;
+  }
+
+.tituloazulH1 {
+  font-family: Arial;
+  color: #0000FF;
+  font-weight: bold;
+  text-decoration: underline;
+  text-align:center;
+  }
+
+.tituloazulH2 {
+  font-family: Arial;
+  color: #0000FF;
+  font-weight: bold;
+  text-decoration: underline;
+  text-align:center;
+  }
+
+.titulolilaH1 {
+  font-family: Arial;
+  color: #BD00BD;
+  font-weight: bold;
+  text-decoration: underline;
+  text-align:center;
+  }
+
+.titulolilaH2 {
+  font-family: Arial;
+  color: #BD00BD;
+  font-weight: bold;
+  text-decoration: underline;
+  text-align:center;
+  }
+
+.titulorojoH1 {
+  font-family: Arial;
+  color: #FF0000;
+  font-weight: bold;
+  text-decoration: underline;
+  text-align:center;
+  }
+
+.titulorojoH2 {
+  font-family: Arial;
+  color: #FF0000;
+  font-weight: bold;
+  text-decoration: underline;
+  text-align:center;
+  }
+
+h3 {
+  font-family: Arial;
+  color: #01A109;
+  font-weight: bold;
+  text-decoration: underline;
+  text-align:center;
+  }
+ 
+h4 {
+  font-family: Arial;
+  color: #EF5307;
+  font-weight: bold;
+  text-decoration: underline;
+  text-align:center;
+  }
+ 
+ 
+ /*  LISTAS Y NAVEGACION  */
+ 
+ dt {
+  font-size:1.2em;
+  font-family: Arial, Verdana, Helvetica, sans-serif;
+  color: #000000;
+  font-weight: bold;
+  }
+
+dd {
+  font-size:1.2em;
+  font-family: Arial, Verdana, Helvetica, sans-serif;
+  color: #000000;
+  }
+
+.sinNada {
+  list-style-type: none;
+  padding: 0 0;
+  margin: 0;
+  }
+
+.liNivel1 {
+  padding-left:30px;
+  }
+
+.liNivel2 {
+  padding-left:60px;
+  }
+
+.liNivel3 {
+  padding-left:90px;
+  }
+
+.liNivel4 {
+  padding-left:120px;
+  }
+ 
+.no-style a { 
+  text-decoration: none
+  }
+
+.no-style {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  }
+
+.horizontalNIVEL1naranja li {
+  float: left;
+  margin: 2px;
+  padding: 4px;
+  }
+
+.horizontalNIVEL1naranja li a {
+  margin: 1px;
+  color: #FFFFFF;
+  background-color: #DD5500;
+  text-align: center;
+  font-family: Comic Sans Ms, sans-serif;
+  padding: 2px;
+  border:1px solid #000000;
+  border-radius: 20px;
+  }
+
+.horizontalNIVEL1naranja li a:hover, horizontalNIVEL1naranja li a:active {
+  background-color: #FFAA00;
+  }
+
+.horizontalNIVEL1verde li {
+  float: left;
+  margin: 2px;
+  padding: 4px;
+  }
+
+.horizontalNIVEL1verde li a {
+  margin: 1px;
+  color: #FFFF00;
+  background-color: #339900;
+  text-align: center;
+  font-family: Comic Sans Ms, sans-serif;
+  padding: 2px;
+  border:1px solid #000000;
+  border-radius: 20px;
+  }
+
+.horizontalNIVEL1verde li a:hover, horizontalNIVEL1verde li a:active {
+  background-color: #00FF00;
+  }
+
+.horizontalNIVEL1azul li {
+  float: left;
+  margin: 2px;
+  padding: 4px;
+  }
+
+.horizontalNIVEL1azul li a {
+  margin: 1px;
+  color: #FFFFFF;
+  background-color: #0000FF;
+  text-align: center;
+  font-family: Comic Sans Ms, sans-serif;
+  padding: 2px;
+  border:1px solid #000000;
+  border-radius: 20px;
+  }
+
+.horizontalNIVEL1azul li a:hover, horizontalNIVEL1azul li a:active {
+  background-color: #00FFFF;
+  }
+
+.horizontalNIVEL1lila li {
+  float: left;
+  margin: 2px;
+  padding: 4px;
+  }
+
+.horizontalNIVEL1lila li a {
+  margin: 1px;
+  color: #FFFFFF;
+  background-color: #BD00BD;
+  text-align: center;
+  font-family: Comic Sans Ms, sans-serif;
+  padding: 2px;
+  border:1px solid #000000;
+  border-radius: 20px;
+  }
+
+.horizontalNIVEL1lila li a:hover, horizontalNIVEL1lila li a:active {
+  background-color: #FF00FF;
+  }
+
+.horizontalNIVEL1rojo li {
+  float: left;
+  margin: 2px;
+  padding: 4px;
+  }
+
+.horizontalNIVEL1rojo li a {
+  margin: 1px;
+  color: #FFFFFF;
+  background-color: #FF0000;
+  text-align: center;
+  font-family: Comic Sans Ms, sans-serif;
+  padding: 2px;
+  border:1px solid #000000;
+  border-radius: 20px;
+  }
+
+.horizontalNIVEL1rojo li a:hover, horizontalNIVEL1rojo li a:active {
+  background-color: #FCB803;
+  }
+
+.horizontalNIVEL2 li {
+  float: left;
+  margin: 2px;
+  padding: 4px;
+  }
+
+.horizontalNIVEL2 li a {
+  margin: 1px;
+  color: #FFFFFF;
+  background-color: #0000FF;
+  text-align: center;
+  font-family: Comic Sans Ms, sans-serif;
+  padding: 2px;
+  }
+
+.horizontalNIVEL2 li a:hover, horizontalNIVEL1naranja li a:active {
+  background-color: #6BD5F1;
+  }
+
+.horizontalNIVEL3 li {
+  float: left;
+  margin: 2px;
+  padding: 4px;
+  }
+
+.horizontalNIVEL3 li a {
+  margin: 1px;
+  color: #FFFFFF;
+  background-color: #025204;
+  text-align: center;
+  font-family: Comic Sans Ms, sans-serif;
+  padding: 2px;
+  }
+
+.horizontalNIVEL3 li a:hover, horizontalNIVEL1naranja li a:active {
+  background-color: #00FF00;
+  }
+
+.horizontalNIVEL4 li {
+  float: left;
+  margin: 2px;
+  padding: 4px;
+  }
+
+.horizontalNIVEL4 li a {
+  margin: 1px;
+  color: #000000;
+  background-color: #B69D12;
+  text-align: center;
+  font-family: Comic Sans Ms, sans-serif;
+  padding: 2px;
+  }
+
+.horizontalNIVEL4 li a:hover, horizontalNIVEL1naranja li a:active {
+  background-color: #FFFF00;
+  }
+
+
+/*  SUBRAYADOS Y MARCADOS  */
+
+.marcadorojo {
+  color: #FF0000;
+  font-weight: bold;
+  }
+
+.marcadoazul {
+  color: #0000FF;
+  font-weight: bold;
+  }
+
+.marcadoazulclaro {
+  color: #00D0FF;
+  font-weight: bold;
+  }
+
+.marcadoverde {
+  color: #339900;
+  font-weight: bold;
+  }
+
+.marcadoamarillo {
+  color: #AAAA00;
+  font-weight: bold;
+  }
+
+.marcadonaranja {
+  color: #DD5500;
+  font-weight: bold;
+  }
+
+.marcadojarabe {
+  color: #FFAA00;
+  font-weight: bold;
+  }
+
+.marcadoamarillofluorescente {
+  color: #FFFF00;
+  font-weight: bold;
+  }
+
+.marcadoverdefluorescente {
+  color: #00FF00;
+  font-weight: bold;
+  }
+
+.marcadolila {
+  color: #BD00BD;
+  font-weight: bold;
+  }
+
+.marcadomorado {
+  color: #700888;
+  font-weight: bold;
+  }
+
+.marcadorosa {
+  color: #F7BFBE;
+  }
+
+.marcadofucsia {
+  color: #FF0080;
+  }
+
+.marcadomarronoscuro {
+  color: #C36432;
+  }
+
+.marcadomarronclaro {
+  color: #DA6629;
+  }
+
+.marcadobeige {
+  color: #E8C39E;
+  }
+
+.marcadogris {
+  color: #96989A;
+  }
+
+.marcadoplata {
+  color: #C0C0C0;
+  }
+
+.marcadonegro {
+  color: #000000;
+  }
+
+.marcadoblanco {
+  color: #FFFFFF;
+  }
+
+.subrayadorojo {
+  color: #FFFFFF;
+  background-color: #FF0000;
+  }
+
+.subrayadoazul {
+  color: #FFFFFF;
+  background-color: #0000FF;
+  }
+
+.subrayadoazulclaro {
+  color: #000000;
+  background-color: #00D0FF;
+  }
+
+.subrayadoverde {
+  color: #FFFFFF;
+  background-color: #339900;
+  }
+
+.subrayadoamarillo {
+  color: #000000;
+  background-color: #FFE400;
+  }
+
+.subrayadonaranja {
+  color: #FFFFFF;
+  background-color: #DD5500;
+  }
+
+.subrayadojarabe {
+  color: #000000;
+  background-color: #FFAA00;
+  }
+
+.subrayadoamarillofluorescente {
+  color: #000000;
+  background-color: #FFFF00;
+  }
+
+.subrayadoverdefluorescente {
+  color: #000000;
+  background-color: #00FF00;
+  }
+
+.subrayadolila {
+  color: #FFFFFF;
+  background-color: #B695C0;
+  }
+
+.subrayadomorado {
+  color: #FFFFFF;
+  background-color: #A349A4;
+  }
+
+.subrayadorosa {
+  color: #000000;
+  background-color: #F7BFBE;
+  }
+
+.subrayadofucsia {
+  color: #FFFFFF;
+  background-color: #FF0080;
+  }
+
+.subrayadomarronoscuro {
+  color: #FFFFFF;
+  background-color: #8D4925;
+  }
+
+.subrayadomarronclaro {
+  color: #000000;
+  background-color: #DA6629;
+  }
+
+.subrayadobeige {
+  color: #000000;
+  background-color: #E8C39E;
+  }
+
+.subrayadogris {
+  color: #000000;
+  background-color: #96989A;
+  }
+
+.subrayadoplata {
+  color: #000000;
+  background-color: #C0C0C0;
+  }
+
+.subrayadonegro {
+  color: #FFFFFF;
+  background-color: #000000;
+  }
+
+.subrayadoblanco {
+  color: #000000;
+  background-color: #FFFFFF;
+  }
+
+.escriturablanca {
+  color: #FFFFFF;
+  font-weight: bold;
+  }
+
+.destacado {
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  }
+
+.ejemplo {
+  font-family: Courier New, monospace;
+  font-style:italic;
+  color:#700888;
+ }
+
+
+/*  CAJAS  */
+
+.recuadroamarillo {
+  background-color:#FFFFCC;
+  text-align:left;
+  font-family:courier;
+  font-size:1.2em;
+  border-width:0;
+  padding:5px;
+  border: 1px dotted #FFAA00;
+  overflow:scroll;
+  width:940px;
+  overflow-y:hidden;
+  overflow-x:hidden;
+  }
+
+.recuadroazul {
+  background-color:#B7EFF9;
+  text-align:left;
+  font-family:courier;
+  font-size:1.2em;
+  border-width:0;
+  padding:5px;
+  border: 1px dotted #FFAA00;
+  overflow:scroll;
+  width:940px;
+  overflow-y:hidden;
+  overflow-x:hidden;
+  }
+
+.recuadrorosa {
+  background-color:#FF80E1;
+  text-align:left;
+  font-family:courier;
+  font-size:1.2em;
+  border-width:0;
+  padding:5px;
+  border: 1px dotted #FFAA00;
+  overflow:scroll;
+  width:940px;
+  overflow-y:hidden;
+  overflow-x:hidden;
+  }
+
+.recuadroverde {
+  background-color:#8FFC97;
+  text-align:left;
+  font-family:courier;
+  font-size:1.2em;
+  border-width:0;
+  padding:5px;
+  border: 1px dotted #FFAA00;
+  overflow:scroll;
+  width:940px;
+  overflow-y:hidden;
+  overflow-x:hidden;
+  }
+
+.cajaLeccion{
+  background-color:#FFFFFF;
+  text-align:left;
+  width:95%;
+  border-width:0;
+  padding:5px;
+  border: 1px solid #000000;
+  overflow:scroll;
+  overflow-y:hidden;
+  overflow-x:hidden;
+  border-radius: 20px;
+  margin-bottom:20px;
+  padding-left:20px;
+  padding-right:20px;
+  }
+
+.cajaJava {
+  background-color:#FBC894;
+  text-align:left;
+  font-family: Consolas, Courier New, monospace;
+  font-size:1.2em;
+  border-width:0;
+  padding:5px;
+  border: 1px dotted #000000;
+  overflow:scroll;
+  width:940px;
+  overflow-y:hidden;
+  overflow-x:hidden;
+  }
+
+.cajaPosIt {
+  background-color:#FFFF99;
+  text-align:left;
+  font-family: Segoe UI, Arial, Verdana, Helvetica, sans-serif;
+  font-size:1.2em;
+  border-width:0;
+  padding:5px;
+  border: 1px dotted #000000;
+  overflow:scroll;
+  width:940px;
+  overflow-y:hidden;
+  overflow-x:hidden;
+  }
+
+.cajaHTML {
+  background-color:#DAEEF3;
+  text-align:left;
+  font-family: Courier New, monospace;
+  font-size:1.2em;
+  border-width:0;
+  padding:5px;
+  border: 1px dotted #000000;
+  overflow:scroll;
+  width:940px;
+  overflow-y:hidden;
+  overflow-x:hidden;
+  }
+
+.cajaCSS {
+  background-color:#CBE990;
+  text-align:left;
+  font-family: Comic Sans MS, Sans-Serif;
+  font-size:1.2em;
+  border-width:0;
+  padding:5px;
+  border: 1px dotted #000000;
+  overflow:scroll;
+  width:940px;
+  overflow-y:hidden;
+  overflow-x:hidden;
+  }
+
+.cajaJS {
+  background-color:#FFED54;
+  text-align:left;
+  font-family: Times New Roman, Serif;
+  font-size:1.2em;
+  border-width:0;
+  padding:5px;
+  border: 1px dotted #000000;
+  overflow:scroll;
+  width:940px;
+  overflow-y:hidden;
+  overflow-x:hidden;
+  }
+
+.cajaKotlin {
+  background-color:#F5F5F5;
+  text-align:left;
+  font-family: Segoe UI, Arial, Verdana, Helvetica, sans-serif;
+  font-size:1.2em;
+  border-width:0;
+  padding:5px;
+  border: 1px dotted #000000;
+  overflow:scroll;
+  width:940px;
+  overflow-y:hidden;
+  overflow-x:hidden;
+  }
+
+.cajaConsola {
+  /* background-color:#DEDFCB;*/
+  background-color:#C0C0C0;
+  text-align:left;
+  font-family: Times New Roman, Serif;
+  font-size:1.2em;
+  border-width:0;
+  padding:5px;
+  border: 1px dotted #000000;
+  overflow:scroll;
+  width:940px;
+  overflow-y:hidden;
+  overflow-x:hidden;
+  }
+  
+  .cajaNegra {
+  background-color:#000000;
+  color:#FFFFFF;
+  text-align:left;
+  font-family: Times New Roman, Serif;
+  font-size:1.2em;
+  border-width:0;
+  padding:5px;
+  border: 2px solid #C0C0C0;
+  overflow:scroll;
+  width:940px;
+  overflow-y:hidden;
+  overflow-x:hidden;
+  }
+
+.listaConsola {
+  list-style-type: none; 
+  margin:0;
+  padding:0;
+  }
+
+.cajaSintaxis{
+  background-color:#FFCCFF;
+  text-align:left;
+  font-family:Verdana,Arial,Helvetica,sans-serif;
+  font-size:1.2em;
+  border-width:0;
+  padding:5px;
+  border: 2px dotted #FF0000;
+  overflow:scroll;
+  width:940px;
+  overflow-y:hidden;
+  overflow-x:hidden;
+  }
+
+.arribatop {
+  font-size:small;
+  color: #FFFFFF;
+  font-weight: bold;
+  }
+
+.minicaja {
+  font-size:0.5em;
+  }
+  
+.box-naranjatitulo {
+  margin:0 0 25px;
+  overflow:hidden;
+  padding:10px;
+  background-color:#DD5500;
+  border:3px solid #000000;
+  border-radius: 20px;
+  }
+
+.box-naranjatitulosuperior {
+  margin:0 0 25px;
+  overflow:hidden;
+  padding:10px;
+  background-color:#DD5500;
+  border:3px solid #000000;
+  border-radius: 20px;
+  }
+
+.box-verdetitulo {
+  margin:0 0 25px;
+  overflow:hidden;
+  padding:10px;
+  background-color:#339900;
+  border:3px solid #000000;
+  border-radius: 20px;
+  }
+
+.box-verdetitulosuperior {
+  margin:0 0 25px;
+  overflow:hidden;
+  padding:10px;
+  background-color:#339900;
+  border:3px solid #000000;
+  border-radius: 20px;
+  }
+
+.box-azultitulo {
+  margin:0 0 25px;
+  overflow:hidden;
+  padding:10px;
+  background-color:#0000FF;
+  border:3px solid #000000;
+  border-radius: 20px;
+  }
+  
+.box-azultitulosuperior {
+  margin:0 0 25px;
+  overflow:hidden;
+  padding:10px;
+  background-color:#0000FF;
+  border:3px solid #000000;
+  border-radius: 20px;
+  }
+
+.box-lilatitulo {
+  margin:0 0 25px;
+  overflow:hidden;
+  padding:10px;
+  background-color:#BD00BD;
+  border:3px solid #000000;
+  border-radius: 20px;
+  }
+  
+.box-lilatitulosuperior {
+  margin:0 0 25px;
+  overflow:hidden;
+  padding:10px;
+  background-color:#BD00BD;
+  border:3px solid #000000;
+  border-radius: 20px;
+  }
+
+.box-rojotitulo {
+  margin:0 0 25px;
+  overflow:hidden;
+  padding:10px;
+  background-color:#FF0000;
+  border:3px solid #000000;
+  border-radius: 20px;
+ }
+
+.box-rojotitulosuperior {
+  margin:0 0 25px;
+  overflow:hidden;
+  padding:10px;
+  background-color:#FF0000;
+  border:3px solid #000000;
+  border-radius: 20px;
+  }
+
+.box-arriba {
+  margin:0 0 25px;
+  overflow:hidden;
+  padding:5px;
+  background-color:#339900;
+  border:1px solid #AFCDE3;
+  -webkit-border-radius: 5px;
+  border-radius: 5px;
+  }
+
+
+/*  CÓDIGO  */
+
+.tituloCODIGO {
+  font-style: italic;
+  text-decoration: underline;
+  align-content: center;
+  font-family: Arial;
+  }
+
+.sintaxis {
+  font-size: x-large;
+  font-weight: bold;
+  }
+  
+.codigoComentarios {
+  color: #808080;
+  font-family: Consolas, Arial, Verdana, Helvetica, sans-serif;
+  }
+
+.codigoJava {
+  font-family: Consolas, Courier New, monospace;
+  font-weight: bold;
+  }
+
+.codigoComentariosJava {
+  color: #339900;
+  font-family: Consolas, Courier New, monospace;
+  }
+
+.codigoJS {
+  font-family: Times New Roman, Serif;
+  /* font-weight: bold; */
+  }
+
+.codigoComentariosJS {
+  /* color: #808080; */
+  color: #339900;
+  font-family: Segoe UI, Arial, Verdana, Helvetica, sans-serif;
+  }
+
+.codigoHTML {
+  font-family: Courier New, monospace;
+  /* font-weight: bold; */
+  }
+
+.codigoCSS {
+  font-family: Comic Sans MS, Sans-Serif;
+  /* font-weight: bold; */
+  }
+
+.codigoKotlin {
+  font-family: Segoe UI, Arial, Verdana, Helvetica, sans-serif;
+  }
+
+.codigoMetodoKotlin {
+  color: #00627A;
+  font-family: Segoe UI, Arial, Verdana, Helvetica, sans-serif;
+  }
+
+.codigoComentariosKotlin {
+  color: #808080;
+  font-family: Segoe UI, Arial, Verdana, Helvetica, sans-serif;
+  }
+  
+.codigoVBA
+{
+font-family: Courier New, monospace;
+font-weight: bold;
+color:#000000;
+}
+
+.codigoVBAverde
+{
+font-family: Courier New, monospace;
+font-weight: bold;
+color:#17AD00;
+}
+
+.codigoVBAazul
+{
+font-family: Courier New, monospace;
+font-weight: bold;
+color:#0000FF;
+}
+
+.codigoMenu
+{
+font-family: Courier New, monospace;
+font-weight: bold;
+color:#766F6B;
+}
+
+.codigoPython
+{
+font-family: Consolas, Arial, Verdana, Helvetica, sans-serif;
+font-weight: bold;
+color:#000000;
+}
+
+/*  ========================================================  */
+/*  ================== PARA REEMPLAZAR =====================  */
+/*  ========================================================  */
+
+
+/*
+
+====NAVEGACION DE SUBINDICES====
+<div class="divsubnavegacion">
+<nav class="navegacionprincipal">
+<div>
+<ul class="no-style horizontalNIVEL2">
+<li><a href="#x01">X.1 - XX</a></li>
+<li><a href="#x02">X.2 - XX</a></li>
+<li><a href="#x03">X.3 - XX</a></li>
+<li><a href="#x04">X.4 - XX</a></li>
+<li><a href="#x05">X.5 - XX</a></li>
+<li><a href="#x06">X.6 - XX</a></li>
+</ul></div>
+</nav>
+</div>
+
+<hr class="barrasubnavegacion"/>
+
+<article class="postindice">
+
+<h3>Subtítulo.<span class="minicaja"> [<a href="#xx">arriba</a>]</span></h3>
+
+<p>LECCIÓN</p>
+
+</article>
+
+<article>
+
+<h3>Subtítulo.<span class="minicaja"> [<a href="#xx">arriba</a>]</span></h3>
+
+<p>LECCIÓN</p>
+
+</article>
+
+<hr class="barraseccion"/>
+
+============== para los h3
+
+<h3 id="XX">NN.NN - XX.<span class="minicaja"> [<a href="#00102">arriba</a>]</span></h3>
+
+============== para la barra del final de la sección
+
+<hr class="barraseccion"/>
+
+PARA PONER DEBAJO UN BOTÓN HACIA ARRIBA
+<p class="central"><span class="box-arriba arribatop">[<a href="#XX"><span class="arribatop">arriba</span></a>]</span></p>
+
+====CUIDADO CON LAS SECTIONS Y LOS ARTICLES DUPLICADOS====
+====FIN NAVEGACION DE SUBINDICES====
+
+====DIVISIÓN DE BLOQUE====
+<h2 class="postindice box-verdetitulo" style="width:80%;margin: 0 auto;color:#FFFFFF" id="moduloXX">XX.</h2><br />
+<div style="background-color:#FFFFFF;width:80%;margin: 0 auto;">
+Duración: <span class="marcadorojo"><strong>XX horas XX minutos</strong></span>
+</div><br />
+====FIN DE DIVISIÓN DE BLOQUE====
+
+====TÍTULO DE CADA CAPÍTULO====
+<p class="central"><span class="box-arriba arribatop">[<a href="#arriba"><span class="arribatop">arriba</span></a>]</span></p>
+<p class="central"><a href="XX" target="_blank">XX</a></p>
+<p class="central"><span class="tituloCODIGO">Duración</span>: </p> 
+<article><h3>Subtítulo.</h3><p>LECCIÓN</p></article>
+<hr /> 
+====FIN TÍTULO DE CADA CAPÍTULO====
+
+====NAVEGACION CON TABLAS====
+<table align="center"><tr><td>
+<ul class="no-style horizontalNIVEL1naranja">
+<li><a href="#XX">1 - XX</a></li>
+<li><a href="#XX">2 - XX</a></li>
+<li><a href="#XX">3 - XX</a></li>
+</ul></td></tr></table>
+
+====FIN NAVEGACION CON TABLAS====
+
+====REMPLAZAR====
+<h2 id="
+por
+<h2 class="titulonaranjaH2" id="
+
+y poner en h1 del header este class="titulonaranjaH1"
+
+según color
+
+horizontalNIVEL1 por
+horizontalNIVEL1naranja
+según color
+
+====OTROS====
+
+<section class="postindice">
+<section class="postindice cajaLeccion">
+
+<hr />
+</section>
+
+<hr class="barraseccion"/>
+</section>
+
+====FIN REMPLAZAR====
+
+====CODIGO COMPLETO EN CAJA JAVA====
+
+<div class="cajaJava">
+<ul class="sinNada">
+<li><span class="marcadomorado">import</span> JAVA/javax.X;</li>
+<li>&nbsp;</li>
+<li><span class="marcadomorado">public class</span> NOMBRE CLASE {</li>
+<li>&nbsp;</li>
+<li class="liNivel1"><span class="marcadomorado">public static void</span> main(String[] args) {</li>
+<li>&nbsp;</li>
+<li class="liNivel2"><span class="codigoComentariosJava">// TODO Auto-generated method stub</span></li>
+<li>&nbsp;</li>
+<li class="liNivel2">Nivel 2</li>
+<li class="liNivel3">Nivel 3</li>
+<li class="liNivel4">Nivel 4</li>
+<li>&nbsp;</li>
+<li class="liNivel1">}</li>
+<li>&nbsp;</li>
+<li>}</li>
+</ul>
+</div>
+
+====FIN CODIGO COMPLETO EN CAJA JAVA====
+
+
+*/
+
+
+/*  ========================================================  */
