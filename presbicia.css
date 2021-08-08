@@ -664,7 +664,19 @@ dd {
   font-family: Courier New, monospace;
   font-style:italic;
   color:#700888;
- }
+  }
+ 
+.negrita {
+  font-weight:bold;
+  }
+
+.cursiva {
+  font-style:underline;
+}
+
+.subrayado {
+  text-decoration:underline;
+}
 
 
 /*  CAJAS  */
@@ -815,6 +827,20 @@ dd {
   background-color:#F5F5F5;
   text-align:left;
   font-family: Segoe UI, Arial, Verdana, Helvetica, sans-serif;
+  font-size:1.2em;
+  border-width:0;
+  padding:5px;
+  border: 1px dotted #000000;
+  overflow:scroll;
+  width:940px;
+  overflow-y:hidden;
+  overflow-x:hidden;
+  }
+  
+.cajaPHP {
+  background-color:#EDC3FF;
+  text-align:left;
+  font-family: Consolas, Arial, Verdana, Helvetica, sans-serif;
   font-size:1.2em;
   border-width:0;
   padding:5px;
@@ -1050,174 +1076,38 @@ dd {
   font-family: Segoe UI, Arial, Verdana, Helvetica, sans-serif;
   }
   
-.codigoVBA
-{
-font-family: Courier New, monospace;
-font-weight: bold;
-color:#000000;
-}
+.codigoVBA {
+  font-family: Courier New, monospace;
+  font-weight: bold;
+  color:#000000;
+  }
 
-.codigoVBAverde
-{
-font-family: Courier New, monospace;
-font-weight: bold;
-color:#17AD00;
-}
+.codigoVBAverde {
+  font-family: Courier New, monospace;
+  font-weight: bold;
+  color:#17AD00;
+  }
 
-.codigoVBAazul
-{
-font-family: Courier New, monospace;
-font-weight: bold;
-color:#0000FF;
-}
+.codigoVBAazul {
+  font-family: Courier New, monospace;
+  font-weight: bold;
+  color:#0000FF;
+  }
 
-.codigoMenu
-{
-font-family: Courier New, monospace;
-font-weight: bold;
-color:#766F6B;
-}
+.codigoMenu {
+  font-family: Courier New, monospace;
+  font-weight: bold;
+  color:#766F6B;
+  }
 
-.codigoPython
-{
-font-family: Consolas, Arial, Verdana, Helvetica, sans-serif;
-font-weight: bold;
-color:#000000;
-}
+.codigoPython {
+  font-family: Consolas, Arial, Verdana, Helvetica, sans-serif;
+  font-weight: bold;
+  color:#000000;
+  }
 
-/*  ========================================================  */
-/*  ================== PARA REEMPLAZAR =====================  */
-/*  ========================================================  */
-
-
-/*
-
-====NAVEGACION DE SUBINDICES====
-<div class="divsubnavegacion">
-<nav class="navegacionprincipal">
-<div>
-<ul class="no-style horizontalNIVEL2">
-<li><a href="#x01">X.1 - XX</a></li>
-<li><a href="#x02">X.2 - XX</a></li>
-<li><a href="#x03">X.3 - XX</a></li>
-<li><a href="#x04">X.4 - XX</a></li>
-<li><a href="#x05">X.5 - XX</a></li>
-<li><a href="#x06">X.6 - XX</a></li>
-</ul></div>
-</nav>
-</div>
-
-<hr class="barrasubnavegacion"/>
-
-<article class="postindice">
-
-<h3>Subtítulo.<span class="minicaja"> [<a href="#xx">arriba</a>]</span></h3>
-
-<p>LECCIÓN</p>
-
-</article>
-
-<article>
-
-<h3>Subtítulo.<span class="minicaja"> [<a href="#xx">arriba</a>]</span></h3>
-
-<p>LECCIÓN</p>
-
-</article>
-
-<hr class="barraseccion"/>
-
-============== para los h3
-
-<h3 id="XX">NN.NN - XX.<span class="minicaja"> [<a href="#00102">arriba</a>]</span></h3>
-
-============== para la barra del final de la sección
-
-<hr class="barraseccion"/>
-
-PARA PONER DEBAJO UN BOTÓN HACIA ARRIBA
-<p class="central"><span class="box-arriba arribatop">[<a href="#XX"><span class="arribatop">arriba</span></a>]</span></p>
-
-====CUIDADO CON LAS SECTIONS Y LOS ARTICLES DUPLICADOS====
-====FIN NAVEGACION DE SUBINDICES====
-
-====DIVISIÓN DE BLOQUE====
-<h2 class="postindice box-verdetitulo" style="width:80%;margin: 0 auto;color:#FFFFFF" id="moduloXX">XX.</h2><br />
-<div style="background-color:#FFFFFF;width:80%;margin: 0 auto;">
-Duración: <span class="marcadorojo"><strong>XX horas XX minutos</strong></span>
-</div><br />
-====FIN DE DIVISIÓN DE BLOQUE====
-
-====TÍTULO DE CADA CAPÍTULO====
-<p class="central"><span class="box-arriba arribatop">[<a href="#arriba"><span class="arribatop">arriba</span></a>]</span></p>
-<p class="central"><a href="XX" target="_blank">XX</a></p>
-<p class="central"><span class="tituloCODIGO">Duración</span>: </p> 
-<article><h3>Subtítulo.</h3><p>LECCIÓN</p></article>
-<hr /> 
-====FIN TÍTULO DE CADA CAPÍTULO====
-
-====NAVEGACION CON TABLAS====
-<table align="center"><tr><td>
-<ul class="no-style horizontalNIVEL1naranja">
-<li><a href="#XX">1 - XX</a></li>
-<li><a href="#XX">2 - XX</a></li>
-<li><a href="#XX">3 - XX</a></li>
-</ul></td></tr></table>
-
-====FIN NAVEGACION CON TABLAS====
-
-====REMPLAZAR====
-<h2 id="
-por
-<h2 class="titulonaranjaH2" id="
-
-y poner en h1 del header este class="titulonaranjaH1"
-
-según color
-
-horizontalNIVEL1 por
-horizontalNIVEL1naranja
-según color
-
-====OTROS====
-
-<section class="postindice">
-<section class="postindice cajaLeccion">
-
-<hr />
-</section>
-
-<hr class="barraseccion"/>
-</section>
-
-====FIN REMPLAZAR====
-
-====CODIGO COMPLETO EN CAJA JAVA====
-
-<div class="cajaJava">
-<ul class="sinNada">
-<li><span class="marcadomorado">import</span> JAVA/javax.X;</li>
-<li>&nbsp;</li>
-<li><span class="marcadomorado">public class</span> NOMBRE CLASE {</li>
-<li>&nbsp;</li>
-<li class="liNivel1"><span class="marcadomorado">public static void</span> main(String[] args) {</li>
-<li>&nbsp;</li>
-<li class="liNivel2"><span class="codigoComentariosJava">// TODO Auto-generated method stub</span></li>
-<li>&nbsp;</li>
-<li class="liNivel2">Nivel 2</li>
-<li class="liNivel3">Nivel 3</li>
-<li class="liNivel4">Nivel 4</li>
-<li>&nbsp;</li>
-<li class="liNivel1">}</li>
-<li>&nbsp;</li>
-<li>}</li>
-</ul>
-</div>
-
-====FIN CODIGO COMPLETO EN CAJA JAVA====
-
-
-*/
-
-
-/*  ========================================================  */
+.codigoPHP {
+  font-family: Consolas, Arial, Verdana, Helvetica, sans-serif;
+  font-weight: bold;
+  color:#000000;
+  }
