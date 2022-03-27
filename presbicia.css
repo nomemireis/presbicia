@@ -1,4 +1,4 @@
-/*  CSS ESTILOS CURSOS  */
+﻿/*  CSS ESTILOS CURSOS  */
 
 /*  ESTRUCTURA BÁSICA  */
 
@@ -42,6 +42,9 @@ dd {
   font-weight:bold;
   text-align:center;
   font-size:1.5em;
+  padding: 5px 2px 2px 5px;
+  border: 1px solid #000000;
+  border-radius:20px;
   }
 
 article h3
@@ -50,6 +53,9 @@ article h3
   color:#0000FF;
   text-align:center;
   text-decoration:underline;
+  border-radius:20px;
+  border:1px dotted #000000;
+  background-color:#C0C0C0;
   }
 
 article h4 {
@@ -57,15 +63,48 @@ article h4 {
   font-size:1.3em;
   text-align:center;
   text-decoration:underline;
+  width:60%;
+  border-radius:20px;
+  border:1px dotted #000000;
+  background-color:#F5F5F5;
   }
 
 .bibliografia {
   float: left;
   width:40%;
   border:solid 1px #000000;
+  border-radius:20px;
   margin:30px;
   padding:30px;
+  background-color:#C6C6C6;
   }
+  
+.bibliografia dl{
+  background-color:#3778AF;
+  border-radius:20px;
+  margin:3px;
+  padding:12px;
+  }
+  
+.bibliografia dt{
+  color:#FFAA00;
+  font-weight: bold;
+  text-decoration:underline;
+  }
+
+.bibliografia dd a{
+  color:#FFD646;
+  font-weight: bold;
+  text-decoration:none;
+  display: list-item;
+  list-style-type: disc;
+  }
+  
+.bibliografia dd a:visited{
+  color:#D8D8D8;
+  font-weight: normal;
+  }
+
 
 .central {
   text-align: center;
@@ -89,6 +128,17 @@ div.primeralinea {
   font-size:1.3em;
   background-color:#FFFF00;
   border:1px solid #000000;
+  border-radius:20px;
+  padding-left:3px;
+  text-decoration:none;
+  }
+  
+.parrafoindice a{
+  text-decoration:none;
+  }
+	
+.parrafoindice:hover{
+  background-color:#3778AF;
   }
 
 .barraseccion {
@@ -283,6 +333,14 @@ dd {
 .liNivel4 {
   padding-left:120px;
   }
+  
+.liNivel5 {
+  padding-left:150px;
+  }
+  
+.liNivel6 {
+  padding-left:180px;
+  }
  
 .no-style a { 
   text-decoration: none
@@ -311,7 +369,7 @@ dd {
   border-radius: 20px;
   }
 
-.horizontalNIVEL1naranja li a:hover, horizontalNIVEL1naranja li a:active {
+.horizontalNIVEL1naranja li a:hover, .horizontalNIVEL1naranja li a:active {
   background-color: #FFAA00;
   }
 
@@ -332,7 +390,7 @@ dd {
   border-radius: 20px;
   }
 
-.horizontalNIVEL1verde li a:hover, horizontalNIVEL1verde li a:active {
+.horizontalNIVEL1verde li a:hover, .horizontalNIVEL1verde li a:active {
   background-color: #00FF00;
   }
 
@@ -353,7 +411,7 @@ dd {
   border-radius: 20px;
   }
 
-.horizontalNIVEL1azul li a:hover, horizontalNIVEL1azul li a:active {
+.horizontalNIVEL1azul li a:hover, .horizontalNIVEL1azul li a:active {
   background-color: #00FFFF;
   }
 
@@ -374,7 +432,7 @@ dd {
   border-radius: 20px;
   }
 
-.horizontalNIVEL1lila li a:hover, horizontalNIVEL1lila li a:active {
+.horizontalNIVEL1lila li a:hover, .horizontalNIVEL1lila li a:active {
   background-color: #FF00FF;
   }
 
@@ -395,8 +453,13 @@ dd {
   border-radius: 20px;
   }
 
-.horizontalNIVEL1rojo li a:hover, horizontalNIVEL1rojo li a:active {
+.horizontalNIVEL1rojo li a:hover, .horizontalNIVEL1rojo li a:active {
   background-color: #FCB803;
+  }
+  
+.horizontalNIVEL2 li a, .horizontalNIVEL3 li a, .horizontalNIVEL4 li a{
+  border-radius:20px;
+  border:1px solid #000000;
   }
 
 .horizontalNIVEL2 li {
@@ -414,7 +477,7 @@ dd {
   padding: 2px;
   }
 
-.horizontalNIVEL2 li a:hover, horizontalNIVEL1naranja li a:active {
+.horizontalNIVEL2 li a:hover, .horizontalNIVEL1naranja li a:active {
   background-color: #6BD5F1;
   }
 
@@ -433,7 +496,7 @@ dd {
   padding: 2px;
   }
 
-.horizontalNIVEL3 li a:hover, horizontalNIVEL1naranja li a:active {
+.horizontalNIVEL3 li a:hover, .horizontalNIVEL1naranja li a:active {
   background-color: #00FF00;
   }
 
@@ -452,7 +515,7 @@ dd {
   padding: 2px;
   }
 
-.horizontalNIVEL4 li a:hover, horizontalNIVEL1naranja li a:active {
+.horizontalNIVEL4 li a:hover, .horizontalNIVEL1naranja li a:active {
   background-color: #FFFF00;
   }
 
@@ -671,7 +734,7 @@ dd {
   }
 
 .cursiva {
-  font-style:underline;
+  font-style:italic;
 }
 
 .subrayado {
@@ -850,6 +913,34 @@ dd {
   overflow-y:hidden;
   overflow-x:hidden;
   }
+  
+ .cajaPython {
+  background-color:#F5F5F5;
+  text-align:left;
+  font-family: Segoe UI, Arial, Verdana, Helvetica, sans-serif;
+  font-size:1.2em;
+  border-width:0;
+  padding:5px;
+  border: 1px dotted #000000;
+  overflow:scroll;
+  width:940px;
+  overflow-y:hidden;
+  overflow-x:hidden;
+  }
+  
+.cajaDjango{
+  background-color:#F5F5F5;
+  text-align:left;
+  font-family: Segoe UI, Arial, Verdana, Helvetica, sans-serif;
+  font-size:1.2em;
+  border-width:0;
+  padding:5px;
+  border: 1px dotted #000000;
+  overflow:scroll;
+  width:940px;
+  overflow-y:hidden;
+  overflow-x:hidden;
+  }
 
 .cajaConsola {
   /* background-color:#DEDFCB;*/
@@ -866,7 +957,7 @@ dd {
   overflow-x:hidden;
   }
   
-  .cajaNegra {
+.cajaNegra {
   background-color:#000000;
   color:#FFFFFF;
   text-align:left;
@@ -906,9 +997,24 @@ dd {
   color: #FFFFFF;
   font-weight: bold;
   }
+  
+.arribatop a{
+  text-decoration:none;
+  }
+	
+.arribatop:hover{
+  background-color:#FFD646;
+  text-decoration:none;
+  }
 
 .minicaja {
   font-size:0.5em;
+  }
+  
+.minicaja a:hover{
+  font-style:italic;
+  color:#FFFFFF;
+  background-color:#FF0000;
   }
   
 .box-naranjatitulo {
